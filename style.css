@@ -1,0 +1,53 @@
+* { margin: 0; padding: 0 }
+
+/*Configuramos la cabecera de los libros
+*/
+h2 {
+  margin-bottom: 40px;
+  color:  deeppink;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 25px;
+  color: black;
+  text-align: left;
+}
+/*Configuramos el texto que esta asignado en el fact*/
+ul#facts li {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+/*Configuramos titulo de la web*/
+#container {
+  width: 1000px;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  margin-top: 45px;
+}
+
+#left-column {
+  width: 300px;
+}
+/*Configuramos el texto encima del recuadro donde introducimos la opinion*/
+#right-column {
+  width: 700px;
+  color:red;
+}
+#right-column textarea {
+  width: 100%;
+  height: 60px;
+  margin: 5px auto 0 auto;
+  color: red;
+}
+
+#footer {
+  clear: both;
+  font-size: smaller;
+}
+
